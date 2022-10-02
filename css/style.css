@@ -7,7 +7,9 @@ body{
  
 
 }
-
+a{
+    text-decoration: none;
+}
 header{
     display: flex;
     justify-content: space-between;
@@ -222,11 +224,7 @@ color: #FFFFFF;
 
 }
 
-#about-me-link{
-    scroll-behavior: smooth;
-    overflow-y: scroll;
 
-}
 
 .name{
     font-family: 'Josefin Sans';

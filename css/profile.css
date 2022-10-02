@@ -57,6 +57,13 @@ a:hover{
   align-items: center;
 }
 
+.main-shoot{
+  width:200px;
+  height:200px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
 .info-wrapper {
   flex: 1 1 auto;
 }
