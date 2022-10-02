@@ -1,0 +1,282 @@
+html ,body {
+  width: 100%;
+  height: 100%;
+  margin:0;
+}
+a{
+  text-decoration:none;
+  color: #ffffff;
+}
+a:hover{
+  text-decoration:none;
+}
+.flex-wrapper {
+  display: flex;
+  width: 100%;
+  height: 1400px;
+  background-color: #fedfed;
+  flex-direction: column;
+}
+
+.header {
+  background-color: #B14D15;
+  height: 18%;
+}
+
+.footer {
+  background-color: #B14D15;
+  height: 4%;
+}
+
+.main {
+  height: 78%;
+  background-color: #f2e6ff;
+  display: flex;
+}
+
+.main_sidebar {
+  flex-basis: 34%;
+  flex-grow: 0;
+  background-color: #C1B29C;
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+}
+
+.main_content {
+  flex-grow: 1;
+  background-color: #ffffff;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.mainshot-wrapper {
+  flex: 0 0 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-wrapper {
+  flex: 1 1 auto;
+}
+
+.link-wrapper {
+  flex: 0 0 300px;
+}
+
+.img {
+  background-image: url("/Users/mocmoc329/Library/CloudStorage/OneDrive-個人/文件/web/作品集網頁用圖片/IMG_1082.jpeg");
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background-position: center 0;
+  background-size: cover;
+}
+
+.header-subtitle {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-size: 16px;
+  color: white;
+  letter-spacing: 2px;
+  text-align: center;
+  padding: 60px 0 20px;
+}
+
+.header-title {
+  font-family: 'Josefin Sans';
+font-style: normal;
+  font-size: 30px;
+  color: white;
+  letter-spacing: 5px;
+  text-align: center;
+  font-weight: 700;
+  padding: 10px;
+}
+
+.header-badge {
+  font-family: 'Josefin Sans';
+font-style: normal;
+  text-align: center;
+}
+
+.badge-word {
+  font-family: 'Josefin Sans';
+font-style: normal;
+  font-size: 10px;
+  display: inline-block;
+  padding: 5px 10px;
+  border: solid 2px white;
+  color: white;
+  letter-spacing: 5px;
+  margin: 15px;
+}
+
+.block-wrapper {
+  width: 100%;
+  height: auto;
+  padding: 10px 10px 20px;
+  box-sizing: border-box;
+  font-family: 'Josefin Sans';
+font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: #405337;
+}
+.block-wrapper:before {
+  content: attr(title);
+  display: block;
+  width: 100%;
+  padding-bottom: 5px;
+  letter-spacing: 3px;
+  border-bottom: 1px solid #d8d8d8;
+}
+
+.grid-wrapper {
+  display: flex;
+  padding: 10px 0;
+  border-bottom: solid 1px #d8d8d8;
+}
+
+.grid-name {
+  font-family: 'Josefin Sans';
+font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  flex: 0 0 120px;
+}
+
+.grid-content {
+  font-family: 'Josefin Sans';
+font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  flex: 1 1 auto;
+  color: #ffffff;
+}
+
+
+
+.list{
+  list-style-type: circle;
+  font-family: 'Josefin Sans';
+  font-style: normal;
+    line-height: 3;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.skill-list{
+  font-family: 'Josefin Sans';
+  list-style-type: disc;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+
+
+.contact-wrapper {
+  padding: 8px 0;
+  white-space: nowrap;
+}
+
+.contact-icon {
+  display: inline-block;
+  font-family: 'Josefin Sans';
+font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+}
+.contact-icon .icon-wrap {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  background-color: #405337;
+  border-radius: 15px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.contact-website {
+  display: inline-block;
+  font-family: 'Josefin Sans';
+font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  margin-left: 4px;
+  color: #405337;
+}
+
+.content-box {
+  font-family: 'Josefin Sans';
+font-style: normal;
+  line-height: 1.6;
+  font-weight: 300;
+  font-size: 14px;
+  padding: 20px 0 0 0;
+}
+
+.year-list-wrapper {
+  position: relative;
+  box-sizing: border-box;
+  font-family: 'Josefin Sans';
+font-style: normal;
+  padding-left: 90px;
+  min-height: 30px;
+  width: 100%;
+  height: auto;
+  line-height: 1;
+}
+.year-list-wrapper .__title {
+  font-size: 16px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  padding: 3px 0px 5px 0;
+}
+.year-list-wrapper .__content {
+  font-size: 12px;
+  padding-bottom: 20px;
+  line-height: 1.6;
+}
+.year-list-wrapper:before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  left: 75px;
+  bottom: 0;
+  background-color: #405337;
+}
+.year-list-wrapper:after {
+  content: "";
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: #405337;
+  left: 72px;
+  top: 7.5px;
+}
+.year-list-wrapper:first-child:before {
+  height: calc( 100% - 9px );
+}
+.year-list-wrapper:last-child .__content {
+  padding-bottom: 0px;
+}
+
+.year-tag {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 60px;
+  height: 20px;
+  box-sizing: border-box;
+  font-size: 12px;
+  color: white;
+  background: linear-gradient(-45deg, transparent 7.5px, #405337 0) bottom right, linear-gradient(-135deg, transparent 7.5px, #405337 0) top right;
+  padding: 4px 0 0 15px;
+  background-size: 100% 50%;
+  background-repeat: no-repeat;
+}

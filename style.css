@@ -1,0 +1,566 @@
+:root{
+    --milkteacolor--:#C1B29C;
+
+}
+body{
+    margin: 0;
+ 
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 55px 85px ;
+    background-color: #C1B29C;
+
+      }
+      
+#momosstudio{
+    font-family: 'Josefin Sans';
+    font-style: regular 400;
+    
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: 0.06em;
+
+    color: #000000;
+    float: left;
+}
+#hamburger{
+    display: none;
+    
+}
+.navclass{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 25px;
+    line-height: 40px;
+    border: 3px;
+
+    letter-spacing: 0.06em;
+    margin-block: 1px;
+    display: flex;
+    float:right;
+    margin: 0px 20px;
+    cursor: pointer;
+
+color: #5F5F5F;
+}
+#sidebar{
+    display: none;
+    background-color: #C1B29C;
+}
+.options{
+    display: none;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 25px;
+    line-height: 40px;
+    border: 3px;
+
+    letter-spacing: 0.06em;
+    margin-block: 1px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 20px;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+.options:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+}
+
+.navclass:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+}
+.main{
+    background-color: #C1B29C;
+}
+.artical1{
+    height: 100vh;
+    background: #C1B29C;
+    flex:1;
+
+}
+#first_title{
+    display: flex;
+    justify-content: space-between;
+}
+.big{
+    color: black;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 150px;
+    padding: 5% 15% 0%;
+    margin: 0;
+    background-color: #C1B29C;
+    
+}
+#function{
+    width: 887px;
+    height: 343px;
+    left: 191px;
+    top: 529px;
+
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight:300px;
+    font-size: 20px;
+    line-height: 35px;
+    /* or 137% */
+    
+    letter-spacing: 0.08em;
+    margin: 1% 15%;
+    
+    color: #000000;
+}
+.myname{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 25px;
+/* or 62% */
+    letter-spacing: 0.04em;
+
+    color: #000000;
+
+    transform: rotate(-90deg);
+    transform-origin: 0%;
+    margin-top: 100px;
+    
+}
+.article2class{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.artical2{
+    display: flex;
+    height: 100vh;
+    background-color:#405337 ;
+}
+.big2{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 90px;
+    /* or 85% */
+
+    letter-spacing: 0.04em;
+    align-items: center;
+    color: #FFFFFF;
+    padding: 15% 15%;
+
+}
+#big2{
+    display:none;
+}
+.sections{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.section1,.section2,.section3{
+        margin: 20px;
+       
+    }
+.img-1{
+    width: 350px;
+    height: 420px;
+    object-fit: cover;
+}
+.little-title{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 30px;
+/* identical to box height */
+    margin: 30px 10px 30px 10px;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.little-title:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+    color: #FFFFFF;
+}
+
+.artical3{
+    height: 100vw;
+    background-color: #B14D15;
+}
+.big3{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 128px;
+    line-height: 109px;
+    /* or 85% */
+    writing-mode: vertical-rl;
+    letter-spacing: 0.04em;
+    margin: 0;
+
+color: #FFFFFF;
+
+
+
+}
+
+#about-me-link{
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+
+}
+
+.name{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 50px;
+    margin-top: 48px;
+
+letter-spacing: 0.26em;
+
+color: #FFFFFF;
+
+}
+.info-short{
+    display: none;
+}
+
+.info{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    z-index: 1;
+    margin-top: 40px;
+
+        letter-spacing: 0.26em;
+
+color: #FFFFFF;
+
+}
+.img-me{
+    width: 500px;
+    height: 400px;
+    display: block;
+
+    object-fit: cover;
+}
+
+.photo-info{
+    display: flex;
+    flex-direction: column;
+    margin-left:161px;
+}
+
+.about-me{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.upper-section{
+    display: flex;
+    margin:137px 400px 52px 138px;
+    scroll-behavior: smooth;
+
+
+}
+
+.see-more-wrap{
+    display: none;
+}
+
+
+
+
+@media screen and (max-width: 820px) {
+    header {
+        align-items: center;
+        padding: 45px 10% 10% 10% ;
+        
+    }
+    .artical1{
+        height:500px;
+    }
+    .navclass{
+        display: none;
+    }
+    #momosstudio{
+        margin-top:3px;
+        font-size: 30px ;
+        letter-spacing: 0.02em;
+
+    }
+    #hamburger{
+        display:block;
+        width: 25px;
+        height: 17px;
+        display: flex;
+        flex-direction: column;
+        justify-content:space-between;
+        cursor: pointer;
+    }
+
+    
+
+    .hamburger-open #sidebar{
+        position: fixed;
+        display: flex;
+        transform: translateX(0);
+        background-color: #B14D15;
+        height: 23vh;
+        width: 25vw;
+        top: 93px;
+        right: 65px;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+    }
+
+
+    #hamburger-open .line {
+        transform: rotateX(625deg);
+    }
+    
+    #hamburger-open .line::before {
+        transform: rotate(90deg) translateX(-6px);
+    }
+    
+    #hamburger-open .line::after {
+        opacity: 0;
+    }
+
+
+
+    .line{
+        width: 25px;
+        height: 2px;
+        background: #000000;
+
+    }
+    
+    .big{
+        font-size: 50px;
+        line-height: 67px;
+    }
+    .myname{
+        display: none;
+    }
+    #function{
+        width: 250px;
+        height: 203px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        margin-top: 43px;
+    }
+    .see-more{
+        display: block;
+    }
+    .artical2{
+        height: 650px;
+        flex-direction: column;
+        justify-content:center;
+    }
+    .article2class{
+        flex-direction: column;
+        justify-content:center;
+    }
+    #big2{
+        display: flex;
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 50px;
+        line-height: 64px;
+        /* or 128% */
+
+
+        color: #FFFFFF;
+    }
+    .big2{
+        display: none;
+    }
+    .img-1{
+        width: 265px;
+        height: 319px;
+    }
+    .little-title{
+         font-weight: 300;
+         font-size: 16px;
+         line-height: 16px;
+         letter-spacing: 0.06em;
+         margin: 20px 10px;
+    }
+    .sections{
+        margin-top: 5%;
+        width: 297px;
+        height: 395px;
+        display: flex;
+        overflow: hidden;
+
+        display: flex;
+
+    }
+
+    .artical3{
+        height: 620px;
+        position:relative;
+    }
+    .big3{
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 50px;
+        line-height:49px;
+        height: 62px;
+        order:1;
+
+
+
+        
+
+        letter-spacing: 0.04em;
+
+        color: #FFFFFF;
+
+       
+
+
+        margin-top: 40px;
+
+
+        
+    }
+    .photo-together{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .photo-info{
+        display:flex;
+        flex-direction: column;
+        margin:0;
+        height:300px;
+        margin-left:62px;
+        margin-top:155px;
+    }
+    .img-me{
+        width: 199.2px;
+        height: 232px; 
+        object-fit: cover;
+        filter: grayscale(60%);
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 0%;
+    }
+    .name{
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 23px;
+        /* or 94% */
+
+        letter-spacing: 0.4em;
+
+        color: #FFFFFF;
+        margin: 0%;
+        padding-top: 25px;
+
+    }
+    .about-me{
+        display: flex;
+        flex-direction: row;
+        height:620px;
+        justify-content: center;
+        flex-wrap: wrap;
+        /* align-items: center; */
+        white-space: nowrap;
+    }
+    .info-me{
+        
+    }
+    .info{
+        display: none;
+    }
+    .info-short{
+        
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        /* or 125% */
+
+        letter-spacing: 0.26em;
+
+        color: #FFFFFF;
+        display: block;
+        padding-top: 15px;
+    }
+    .see-more{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+
+        /* identical to box height, or 125% */
+
+        letter-spacing: 0.08em;
+
+        color: #ffffff;
+        margin: 0%;
+        padding: 0%;
+        
+    }
+    .see-more-wrap{
+        display: flex;
+        flex-direction: column;
+    
+        height: 39px;
+        width: 103px;
+        border:1px solid white;
+        margin-top: 70px;
+        margin-left: 340px;
+       align-items: center;
+       justify-content: center;
+    }
+
+    .upper-section{
+        display:flex;
+        width:100%;
+        height:420px;
+        flex-direction: row;
+        justify-content: center;
+        margin: 0;
+
+    }
+}
+
+   
